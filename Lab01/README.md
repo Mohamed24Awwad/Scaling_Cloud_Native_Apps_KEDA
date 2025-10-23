@@ -1,6 +1,6 @@
-# 🧪 Lab 1 - Setting Up the Course Lab Environment
+# Lab 1 - Setting Up the Course Lab Environment
 
-## 📘 Overview
+## Overview
 Before we dive into the hands-on activities, let's configure the lab environment with the following tools:
 
 - **Docker**: Used by `kind` to provision the Kubernetes cluster.  
@@ -11,7 +11,7 @@ Before we dive into the hands-on activities, let's configure the lab environment
 
 ---
 
-## ⚙️ Exercise 1.1: Set Up the Course Lab Environment
+## Exercise 1.1: Set Up the Course Lab Environment
 
 ### 🐧 Linux Environment Setup
 
@@ -58,7 +58,7 @@ kubectl get ns
 
 ---
 
-### 📊 Metric Server Setup in Kubernetes
+###  Metric Server Setup in Kubernetes
 ```bash
 helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server/
 helm upgrade --install metrics-server metrics-server/metrics-server -n kube-system --set args[0]=--kubelet-insecure-tls
