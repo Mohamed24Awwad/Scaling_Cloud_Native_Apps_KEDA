@@ -1,6 +1,6 @@
 #  Lab 3 - Installing KEDA and Setting Up Cron Scaler
 
-## 📘 Overview
+## Overview
 This lab provides hands-on experience installing **KEDA** in Kubernetes and configuring a **Cron Scaler** to scale workloads based on a schedule.
 
 ---
