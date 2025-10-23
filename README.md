@@ -59,11 +59,11 @@ I developed and tested these labs on a Linux host, but they run fine on Windows 
 Clone the repository and change into the project folder:
 
 ```bash
-git clone https://github.com/mohamed-eldemery/KEDA-Labs.git
-cd KEDA-Labs
+git clone https://github.com/mohamed-eldemery/Scaling_Cloud_Native_Apps_KEDA
+.git
 ```
 
-Work through the labs in order — each lab folder includes a focused README with commands and expected outputs.
+Work through the labs in order-each lab folder includes a focused README with commands and expected outputs.
 
 ## Labs (quick index)
 
