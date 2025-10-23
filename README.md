@@ -7,7 +7,7 @@
 
 Hi Dudes, I put these labs together to give a practical, hands-on path for learning autoscaling on Kubernetes. The goal was to make step-by-step exercises that are short, repeatable, and useful whether you're experimenting locally or teaching a class.
 
-I wrote the instructions from real lab runs, so you should find commands and sequences that actually work. If something doesn't, please open an issue or send a pull request — contributions and fixes are very welcome.
+I wrote the instructions from real lab runs, so you should find commands and sequences that actually work. If something doesn't, please open an issue or send a pull request, contributions and fixes are very welcome.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ I wrote the instructions from real lab runs, so you should find commands and seq
 
 ## Labs Overview
 
-Below is a short summary of the three labs included in this repository. Each lab folder has a README with step-by-step instructions.
+Below is a summary of the three labs included in this repository. Each lab folder has a README with step-by-step instructions.
 
 | Lab | Title | Key focus |
 |-----|-------|-----------|
@@ -88,7 +88,7 @@ kubectl get scaledobject.keda.sh
 
 ## Learning outcomes
 
-After finishing these exercises you should be comfortable:
+After finishing these exercises, you should be comfortable:
 
 - Building small, autoscaling-ready clusters with kind
 - Using Helm to deploy components like Metrics Server and KEDA
